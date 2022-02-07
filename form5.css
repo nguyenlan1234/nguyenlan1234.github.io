@@ -1,0 +1,469 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.header img {
+	width: 8%;
+	height: 10%;
+	padding: 10px;
+}
+.bodychinh {
+	background-image:url(https://www.arena-multimedia.vn/wp-content/uploads/2021/12/NamHum_BannerWebDesktop_1920x900px.png);
+	background-size: cover;
+	height: 100vh;
+	
+}
+
+.header{
+	background-color:white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	
+}
+
+.header ul li{
+	display: inline;
+	padding: 0 20px;
+	
+}
+.header button {
+	background-color: yellow;
+	border: none;
+	padding: 10px;
+	color: white;
+	
+	border-radius: 20px;
+	
+}
+.body2{
+	display: flex;
+	padding: 30px;
+	
+align-items: center;
+}
+.phiabenphai img{
+	width: 70%;
+	height: 70%;
+	
+}
+.phiabenphai{
+	display: flex;
+	justify-content: space-between;
+}
+.phiabentrai h1{ color: orange;
+	font-weight: 900;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+
+}
+.item{
+	text-align: center;
+	border-radius: 20px;
+	
+	padding: 20px;
+	margin:  0 10px;
+	width: 150px;
+	box-shadow: 0px 0px 10px 5px #0000004d;
+	
+}
+.item img{
+	width: 70%;
+	padding-bottom: 10px;
+}
+.phiabentrai{
+	position: relative;
+	width: 30%;
+	height: 150px;
+}
+.phiabentrai h4 {font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+	position: absolute;
+	bottom: 0;
+}
+.video{
+	padding: 30px;
+	text-align: center;
+}
+iframe{
+	border-radius: 20px;
+	
+	
+}
+.body3{
+	padding: 30px;
+	height: 80px;
+	position: relative;
+}
+.body3 h1{
+	color: orange;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+.body3 p{
+	position: absolute;
+	bottom: 0px;
+}
+.body3 hr{
+	height: 2px;
+	background-color: #000000;
+}
+.body4{
+	padding:30px;
+	
+}
+.benphaitext h1{color: orange;
+	padding: 20px 0px;
+	
+}
+.benphaitext{
+	
+	
+	
+}
+.benphaitext input{
+	margin-top: 10px;
+	background-color: transparent;
+	border: 1px solid #D5D422;
+	padding: 10px 15px;
+	border-radius: 20px;
+	margin-right: 20px;
+}
+.body4 {margin-top: 20px;
+	padding: 50px 30px;
+	box-shadow: 0px 0px 10px 5px #0000004d;
+	display: flex;
+	
+}
+.body4 .benphaitext , .anhbody4benphai{
+	width: 49%
+}
+.body4 .anhbody4benphai .anhnencogai{	
+
+	width: 85%;
+	}
+.anhbody4benphai{
+	position: relative;
+}
+
+.body4 .anhbody4benphai .anhchugraphic{
+	width: 30%;
+	position: absolute;
+	right: 10px;
+	top: 0px;
+}
+.benphaitext{
+	width: 85%;
+	background-image: url("hk1-number arena.png");
+	margin-right: 20px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.body5{
+	display: flex;
+	
+}
+.body5{
+	padding: 30px 100px;
+}
+.body5 .anhavata{
+	width: 30%;
+	text-align: center;
+	margin: 30px;
+}
+.body5 .anhavata img {
+	width: 100%;
+	border-radius: 20px;
+}
+
+.body5 .anhnoidung5{
+	margin: 30px;
+	background-color: #C4C2C2;
+	border-radius: 20px;
+text-align: center;
+}
+.anhnoidung5 p{
+	margin-top: 20px;
+}
+
+.body6 h1{
+	color: orange;
+	text-align: center;
+}
+.body6 hr{
+	width: 10%;
+	border: 2px solid back;
+	height: 2px;
+	background-color: #000000;
+	margin: 0 auto;
+		
+}
+.chuul{
+	text-align: center;
+}
+.body6 ul li{
+display: inline;
+padding: 0 10px;
+	color: orange;
+	
+	
+	
+}
+.anhca {
+	padding: 30px 0 ;
+	
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-template-rows: 200px 200px ;
+	grid-gap: 40px;
+	
+}
+.anhca img {
+	height:100%;
+	border-radius: 40px;
+padding: 0 20px;
+	
+}
+.body7 input{
+	border-color: transparent;
+	color:white;
+	border-radius: 20px;
+	padding: 10px;
+	background-color: orange;
+	
+
+}
+.body7{
+	text-align: center;
+	margin-bottom: 30px;
+	
+	
+}
+.body8{
+	background-image: url("anh cay but.png");
+	height: 400px;
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: #151c20;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	
+		
+}
+.body8 hr{
+	width: 10%;
+	margin: 20px auto;
+	
+}
+.formdangkituvan{
+	border: 1px solid orange;
+	border-radius: 20px;
+	width: 50%;
+	margin: 0 auto;
+	padding: 20px;
+	
+	
+	
+	
+}
+.formdangkituvan input,select{
+	width: 40%;
+	padding: 10px;
+	background-color: transparent;
+	border-radius: 20px;
+	border: 2px solid white;
+	margin: 10px 0;
+	color: white;
+	
+}
+.formdangkituvan a{
+	border: 1px solid white;
+	border-radius: 20px;
+	background-color: orange;
+	padding: 10px;
+	margin-top: 20px;
+		
+}
+.body9{
+	
+	color: white;
+	
+	background: white;
+	
+	
+	display: flex;
+	justify-content: center;
+	margin:  30px 0 ;
+}
+	
+	
+.body9 hr{
+	
+	width:10%;
+	border: 1px solid;
+	margin: 0 auto
+}
+.nhanvattruyencamhung{
+	background-image:  linear-gradient(to top,#ff6e02,#F5ED28);
+	height: 700px;
+	width: 60%;
+	text-align: center;
+	padding:30px 0;
+	border-radius: 20px;
+	
+	
+}
+.cacthaycocuatruong img{
+	height: 300px;
+	width: 200px;
+	border-radius: 20px;
+}
+.cacthaycocuatruong{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-column-gap: 20px;
+}
+.nhanvattruyencamhung{
+	position: relative;
+	height: 700px;
+}
+.cacthaycocuatruong{
+	position: absolute;
+	bottom:300px;
+	left:20px;
+}
+.body10{
+	color: orange;
+	font-size: 900;
+	text-align: center;
+	margin: 30px 0;
+}
+.body10 hr{
+	border: 1px solid;
+	width: 10%;
+	margin: 0 auto;
+	
+}
+.anhsukiennoibat img {
+	width: 250px;
+	height: 250px;
+	border-radius: 20px;
+}
+.anhsukiennoibat{
+	display: grid;
+	grid-template-columns: auto auto auto auto ;
+	
+}
+.body11 .nguhotrai img {
+	width:850px;
+}
+.body11 .nguhophai img {
+	width: 550px;
+}
+.nguho{
+	display: flex;
+}
+.nguhophai{
+	margin-left: 40px;
+}
+.body11 h1{
+	color: orange;
+	font-weight: 900;
+	text-align: center;
+	
+}
+	
+.body11 hr{
+	border: 1px solid;
+	width: 10%;
+	margin: 0 auto;
+	 
+
+	
+	
+	
+}
+.body11 a{
+	
+border: 1px solid orange;
+	border-radius: 20px;
+	background-color:transparent;
+	padding: 15px;
+	color: orange;
+	margin: 0 auto;
+	display: block;
+	width: 10%;
+	margin-bottom: 40px;
+	
+	
+
+}
+.body12  a{
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: 500;
+	color: #2A2929;
+	border: 1px solid grey;
+	border-radius:5px;
+	box-shadow: 0px 0px 10px 5px #0000004d;
+	
+
+}
+.body12 p{ visibility: hidden;
+	
+}
+.body13 a{
+	border: 1px solid orange;
+	border-radius: 20px;
+	background-color:transparent;
+	padding: 15px;
+	color: orange;
+	margin: 0 auto;
+	display: block;
+	width: 15%;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	
+}
+
+.diachinhatruong {
+display: flex;
+	justify-content: space-around;
+}
+.diachihanoi{
+	display: flex;
+	justify-content: space-around;
+}
+.phiataytraidiachi{
+	width: 70%;
+}
+.body14{
+	display: flex;
+	justify-content: space-between;
+	 background-color:#ADABAB;
+	padding: 30px 20px;
+}
+.phiatayphaiemail input{
+	border-radius: 20px;
+	
+	padding: 10px;
+	color: white;
+}
+
+	
+
+
+
+
+
+
+
+	
+
+
+
